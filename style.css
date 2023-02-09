@@ -39,8 +39,8 @@ body {
 }
 
 .SubTitulo {
-    font-size: 24px;
     font-family: 'Krona One', sans-serif;
+    font-size: 24px;
     font-weight: 400;
     line-height: 40px;
     text-align: center;
@@ -57,6 +57,9 @@ body {
 
 .LinkedIn {
     /* background: #25e4ff; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #25e4ff;
     width: 378px;
     font-size: 24px;
@@ -71,6 +74,9 @@ body {
 
 .GitHub {
     /* background: #25e4ff; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #25e4ff;
     width: 378px;
     font-size: 24px;
@@ -83,8 +89,12 @@ body {
     border-radius: 16px;
 }
 
+
 .Instagran {
     /* background: #25e4ff; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #25e4ff;
     width: 378px;
     font-size: 24px;
