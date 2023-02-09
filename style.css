@@ -6,8 +6,24 @@
 body {
     background-color: black;
     color: #F6F6F6;
-    height: 100vh; /* 100% Da Altura da Tela do Navegador*/
-    width: 100%;   /* 100% Da Largura da Tela do Navegador*/
+    box-sizing: border-box;
+    /* height: 100vh; - 100% Da Altura da Tela do Navegador */
+    /* width: 100%;   - 100% Da Largura da Tela do Navegador */
+}
+
+.Nav {
+    padding: 2% 0% 0% 15%;
+    display: flex;
+    gap: 80px;
+}
+
+.Home {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #25e4ff;
+    text-decoration:none;
+
 }
 
 .DestaqueTitulo {
@@ -15,7 +31,7 @@ body {
 }
 
 .Principal {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -38,7 +54,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.SubTitulo {
+.SubTitulo2 {
     font-family: 'Krona One', sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -53,6 +69,10 @@ body {
     align-items: center;
     gap: 32px;
     
+}
+
+.button :hover {
+    background-color: #272727;
 }
 
 .LinkedIn {
@@ -106,3 +126,12 @@ body {
     padding: 21.5px 0;
     border-radius: 16px;
 }
+
+.copyrigth {
+    background-color: #25e4ff;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
