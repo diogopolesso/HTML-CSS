@@ -16,7 +16,7 @@ Nesta Imersão você encontrara exercicios e comandos HTML e CSS com Projetos no
 ****
 ## Base de Apoio Figma:
 
-![image](https://user-images.githubusercontent.com/111795220/217638964-47bc696f-7c0a-4362-b35c-f9c623233a6a.png)
+![image](https://user-images.githubusercontent.com/111795220/218188139-b35a6f88-a338-448c-99df-aaf44a999467.png)
 
 ****
 ## Linguagens Utilizadas:
